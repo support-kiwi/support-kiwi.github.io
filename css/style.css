@@ -1113,7 +1113,7 @@ a.btn-mod:focus{
     position: absolute;
     left: 50%;
     bottom: 4px;
-    color: #111;
+    color: #008329;
     font-size: 16px;
 
     -webkit-animation: scroll-down-anim 1s infinite;
@@ -1565,8 +1565,10 @@ a.logo:hover{
 
 }  
 
+.inner-nav ul li a:hover {
+    color: #37A000;
+}
 
-.inner-nav ul li a:hover,
 .inner-nav ul li a.active{
     color: #888;
     text-decoration: none;
