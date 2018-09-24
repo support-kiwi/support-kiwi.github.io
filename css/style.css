@@ -609,7 +609,7 @@ a.btn-mod{
     color: #fff;
     background: rgba(55,160,0, 1);
     border: 2px solid transparent;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
     text-decoration: none;
@@ -1114,7 +1114,7 @@ a.btn-mod:focus{
     left: 50%;
     bottom: 4px;
     color: #111;
-    font-size: 15px;
+    font-size: 16px;
 
     -webkit-animation: scroll-down-anim 1s infinite;
     -moz-animation: scroll-down-anim 1s infinite;
@@ -2743,7 +2743,7 @@ span#name {
     background: #111;
 }
 .section-text{
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 300;
     color: #777;
     line-height: 1.7;
@@ -2936,7 +2936,7 @@ span#name {
 .alt-services-title{
     margin: 0 0 10px 0;
     padding: 0;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 400;
     color: #111;
 }
@@ -3020,7 +3020,7 @@ span#name {
 
 .team-item-name {
     margin-top: 23px;
-    font-size: 15px;
+    font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 0.4em;
 }
@@ -3105,7 +3105,7 @@ span#name {
 }
 
 .features-descr{
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 300;
     color: rgba(255,255,255, .75);
 }
@@ -3713,7 +3713,7 @@ span#name {
 
 .banner-decription{
     margin-bottom: 35px;
-    font-size: 15px;    
+    font-size: 16px;    
     font-weight: 300;
     color: rgba(255,255,255, .7);
 }
@@ -3809,7 +3809,7 @@ span#name {
 }
 .post-prev-title{
     margin-bottom: 6px;
-    font-size: 15px;
+    font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 0.2em;
 }
@@ -3845,7 +3845,7 @@ span#name {
 .post-prev-text{
     margin-bottom: 22px;
     color: #777;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 300;
     line-height: 1.75;
 }
@@ -3971,7 +3971,7 @@ span#name {
     letter-spacing: 0.3em;
 }
 .ci-text{
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 300;
 }
 
@@ -4648,7 +4648,7 @@ table.shopping-cart-table tr td{
 .pricing-title{
     position: relative;
     margin-bottom: 40px;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -5181,7 +5181,7 @@ section:hover .small-item-carousel .owl-next{
     font-weight: normal;
     font-variant: normal;
     text-transform: none;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 15px;
     text-align: center;
     color: #999;
@@ -5260,7 +5260,7 @@ section:hover .small-item-carousel .owl-next{
     font-weight: normal;
     font-variant: normal;
     text-transform: none;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 15px;
     text-align: center;
     color: #999;
