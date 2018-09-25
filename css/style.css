@@ -2523,6 +2523,10 @@ a.logo:hover{
     color: #fff;
 }
 
+.bg-green {
+    background-color: #96CA2D;
+    color: #fff;
+}
 
 .bg-dark{
     background-color: #222;
