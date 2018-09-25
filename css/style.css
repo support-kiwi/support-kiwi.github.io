@@ -383,9 +383,18 @@ h1,h2,h3,h4,h5,h6{
 h1{
     font-size: 32px;
 }
+h1.main-title {
+    font-family: proxima-nova,Helvetica Neue,Arial,sans-serif;
+    font-size: 70px;
+    line-height: 1.2em;
+    font-weight: 800;
+    color: #222;
+}
 h2{
     font-size: 28px;
 }
+
+
 h6{
     font-weight: 700;
 }
