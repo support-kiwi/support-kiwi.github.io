@@ -384,7 +384,6 @@ h1{
     font-size: 32px;
 }
 h1.main-title {
-    font-family: proxima-nova,Helvetica Neue,Arial,sans-serif;
     font-size: 70px;
     line-height: 1.2em;
     font-weight: 800;
@@ -616,7 +615,7 @@ a.btn-mod{
     box-sizing: border-box;
     padding: 6px 18px;
     color: #fff;
-    background: rgba(55,160,0, 1);
+    background: rgba(150,202,45, 1);
     border: 2px solid transparent;
     font-size: 16px;
     font-weight: 400;
@@ -644,7 +643,7 @@ a.btn-mod:hover,
 a.btn-mod:focus{
     font-weight: 400;
     color: rgba(255,255,255, .85);
-    background: rgba(0,131,41, 1);
+    /*background: rgba(133,180,39, 1);*/
     text-decoration: none;
     outline: none;
     border-color: transparent;    
@@ -1122,7 +1121,7 @@ a.btn-mod:focus{
     position: absolute;
     left: 50%;
     bottom: 4px;
-    color: #008329;
+    color: #96CA2D;
     font-size: 16px;
 
     -webkit-animation: scroll-down-anim 1s infinite;
@@ -1256,7 +1255,7 @@ a.bg-video-button-muted{
     font-weight: 300;
     line-height: 1.2;
     opacity: .75;
-    /*color: #37A000;*/
+    /*color: #96CA2D;*/
 }
 .hs-line-6.no-transp{
     opacity: 1;
@@ -1575,7 +1574,7 @@ a.logo:hover{
 }  
 
 .inner-nav ul li a:hover {
-    color: #37A000;
+    color: #96CA2D;
 }
 
 .inner-nav ul li a.active{
@@ -1585,7 +1584,7 @@ a.logo:hover{
 
 .small-height .inner-nav ul li a:hover,
 .small-height .inner-nav ul li a.active{
-    color: #37A000;
+    color: #96CA2D;
     text-decoration: none;
 }
 
@@ -2695,7 +2694,7 @@ a.logo:hover{
 .bg-orange{ background-color: #f47631 !important; }
 .bg-yellow{  background-color: #ffce02 !important; }
 .bg-cyan{ background-color: #27c5c3 !important; }
-.bg-green{ background-color: #37A000 !important; }
+.bg-green{ background-color: #96CA2D !important; }
 .bg-blue{ background-color: #43a5de !important; }
 .bg-purple{ background-color: #375acc !important; }
 .bg-red{ background-color: #e13939 !important; }
@@ -2712,7 +2711,7 @@ a.logo:hover{
 
 span#name {
     font-size: 22px;
-    color: #37A000;
+    color: #96CA2D;
 }
 
 .section-more{
@@ -6413,17 +6412,17 @@ body{background-color:#eee;}
 }
 #generic_price_table .generic_content .generic_feature_list ul li:hover{
     background-color: #E4E4E4;
-    border-left: 5px solid #008329;
+    border-left: 5px solid #96CA2D;
 }
 
 #generic_price_table .generic_content .generic_price_btn a{
-    border: 1px solid #008329; 
-    color: #008329;
+    border: 1px solid #96CA2D; 
+    color: #96CA2D;
 } 
 
 #generic_price_table .generic_content.active .generic_head_price .generic_head_content .head_bg,
 #generic_price_table .generic_content:hover .generic_head_price .generic_head_content .head_bg{
-    border-color: #008329 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #008329;
+    border-color: #96CA2D rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #96CA2D;
     color: #fff;
 }
 
@@ -6434,7 +6433,7 @@ body{background-color:#eee;}
 
 #generic_price_table .generic_content:hover .generic_price_btn a,
 #generic_price_table .generic_content.active .generic_price_btn a{
-    background-color: #008329;
+    background-color: #96CA2D;
     color: #fff;
 } 
 #generic_price_table{
@@ -6652,7 +6651,7 @@ body{background-color:#eee;}
     transition: all 0.3s ease-in-out 0s;
 }
 #generic_price_table_home .emerald{
-    background: #008329;
+    background: #96CA2D;
     transition: all 0.3s ease-in-out 0s;
 }
 #generic_price_table_home .grey{
