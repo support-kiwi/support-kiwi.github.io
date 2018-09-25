@@ -719,6 +719,10 @@ a.btn-mod:focus{
     color: #111;
     background: rgba(255,255,255, .8);
 }
+.btn-mod.btn-green{
+    color: #fff;
+    background: #96CA2D;
+}
 .btn-mod.btn-w:hover,
 .btn-mod.btn-w:focus{
     color: #111;
