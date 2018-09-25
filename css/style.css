@@ -2523,7 +2523,12 @@ a.logo:hover{
     color: #fff;
 }
 
-.bg-green {
+.bg-light-green {
+    background-color: #B5E655;
+    color: #000;
+}
+
+.bg-dark-green {
     background-color: #96CA2D;
     color: #fff;
 }
