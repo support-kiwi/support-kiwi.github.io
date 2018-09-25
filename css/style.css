@@ -5,7 +5,7 @@
 Project:    Rhythm
 Version:    2.9.7
 Last change:    22.11.2017
-Primary use:    MultiPurpose Template  
+Primary use:    MultiPurpose Template
 -------------------------------------------------------------------*/
 
 @import "font-awesome.min.css";
@@ -98,7 +98,7 @@ Section Text:       15px/1.7 "Open Sans", arial, sans-serif;
 /* ==============================
    Common styles
    ============================== */
-  
+
 .align-center{ text-align:center !important; }
 .align-left{ text-align:left !important;}
 .align-right{ text-align:right !important; }
@@ -130,18 +130,18 @@ Section Text:       15px/1.7 "Open Sans", arial, sans-serif;
 ::selection{ color: #fff;    background:#000; }
 
 .animate, .animate *{
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .no-animate, .no-animate *{
-    -webkit-transition: 0 none !important;  
-    -moz-transition: 0 none !important;  
+    -webkit-transition: 0 none !important;
+    -moz-transition: 0 none !important;
     -ms-transition: 0 none !important;
-    -o-transition: 0 none !important;    
-    transition:0 none !important;  
+    -o-transition: 0 none !important;
+    transition:0 none !important;
 }
 
 .shadow{
@@ -169,7 +169,7 @@ Section Text:       15px/1.7 "Open Sans", arial, sans-serif;
     max-width: 1170px;
     margin: 0 auto;
     padding: 0 20px;
-    
+
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -203,7 +203,7 @@ html, body{
     top: 0;
     left: 0;
     background: #fff url(../images/loader.gif) no-repeat center center;
-    z-index: 100000;    
+    z-index: 100000;
 }
 
 .mask-delay{
@@ -215,13 +215,13 @@ html, body{
     -webkit-animation-duration: 0.25s !important;
     -moz-animation-duration: 0.25s !important;
     animation-duration: 0.25s !important;
-} 
+}
 iframe{
     border: none;
 }
 a, b, div, ul, li{
-    -webkit-tap-highlight-color: rgba(0,0,0,0); 
-    -webkit-tap-highlight-color: transparent; 
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
     -moz-outline-: none;
 }
 a:focus,
@@ -249,7 +249,7 @@ img:not([draggable]), embed, object, video{
     top: 0;
     left: 0;
     background: #fefefe;
-    z-index: 100000;    
+    z-index: 100000;
 }
 
 .loader{
@@ -265,17 +265,17 @@ img:not([draggable]), embed, object, video{
     border-right: 1px solid rgba(0,0,0, 0.08);
     border-bottom: 1px solid rgba(0,0,0, 0.08);
     border-left: 1px solid rgba(0,0,0, 0.5);
-  
+
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-  
+
     -webkit-animation: spinner 700ms infinite linear;
     -moz-animation: spinner 700ms infinite linear;
     -ms-animation: spinner 700ms infinite linear;
     -o-animation: spinner 700ms infinite linear;
     animation: spinner 700ms infinite linear;
-  
+
     z-index: 100001;
 }
 
@@ -361,7 +361,7 @@ body{
     color: #111;
     font-size: 14px;
     font-family: "Open Sans", arial, sans-serif;
-    line-height: 1.6;    
+    line-height: 1.6;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -378,7 +378,7 @@ h1,h2,h3,h4,h5,h6{
     margin-bottom: 1.3em;
     line-height: 1.4;
     font-weight: 400;
-   
+
 }
 h1{
     font-size: 32px;
@@ -416,7 +416,7 @@ blockquote p{
     font-style: normal;
     line-height: 1.6;
 }
-blockquote footer{    
+blockquote footer{
     font-size: 11px;
     font-weight: 400;
     text-transform: uppercase;
@@ -469,7 +469,7 @@ hr.black{
     font-size: 140%;
     line-height: 1.6;
 }
-.text{        
+.text{
     font-size: 18px;
     font-weight: 300;
     color: #5f5f5f;
@@ -488,7 +488,7 @@ hr.black{
     float: left;
     font-size: 3em;
     line-height: 1;
-    padding: 2px 8px 2px 0;    
+    padding: 2px 8px 2px 0;
 }
 
 
@@ -502,15 +502,15 @@ hr.black{
     line-height: 88px;
     font-size: 32px;
     color: rgba(255,255,255, .97);
-    
+
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .big-icon .fa-play{
@@ -534,12 +534,12 @@ hr.black{
 .big-icon-link:hover .big-icon{
     border-color: #fff;
     color: #fff;
-    
-    -webkit-transition: 0 none !important;  
-    -moz-transition: 0 none !important;  
+
+    -webkit-transition: 0 none !important;
+    -moz-transition: 0 none !important;
     -ms-transition: 0 none !important;
-    -o-transition: 0 none !important;    
-    transition:0 none !important;  
+    -o-transition: 0 none !important;
+    transition:0 none !important;
 }
 .big-icon-link:active .big-icon{
     -webkit-transform: scale(0.99);
@@ -554,15 +554,15 @@ hr.black{
     margin-bottom: 10px;
     font-size: 48px;
     font-weight: 400;
-    letter-spacing: 0.4em;    
+    letter-spacing: 0.4em;
     text-align: center;
     text-transform: uppercase;
     opacity: .9;
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 
@@ -604,7 +604,7 @@ hr.black{
 /* ==============================
    Buttons
    ============================== */
-  
+
 .btn-mod,
 a.btn-mod{
     -webkit-box-sizing: border-box;
@@ -619,19 +619,19 @@ a.btn-mod{
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 2px;
-    
+
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
-    
+
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-    
-    -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .btn-mod:hover,
@@ -643,7 +643,7 @@ a.btn-mod:focus{
     /*background: rgba(133,180,39, 1);*/
     text-decoration: none;
     outline: none;
-    border-color: transparent;    
+    border-color: transparent;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
@@ -657,17 +657,17 @@ a.btn-mod:focus{
     padding: 6px 17px;
     font-size: 11px;
     letter-spacing: 1px;
-} 
+}
 .btn-mod.btn-medium{
     height: auto;
     padding: 10px 45px;
     font-size: 14px;
-} 
+}
 .btn-mod.btn-large{
     height: auto;
     padding: 12px 45px;
     font-size: 13px;
-} 
+}
 
 .btn-mod.btn-glass{
     color: rgba(255,255,255, .75);
@@ -789,16 +789,16 @@ a.btn-mod:focus{
     color: #777;
     font-size: 48px;
     opacity: .2;
-    
-    -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .btn-icon:hover > span{
     opacity: 0;
-    
+
     -webkit-transform: scale(2);
     -moz-transform: scale(2);
     -o-transform: scale(2);
@@ -841,23 +841,23 @@ a.btn-mod:focus{
     border: 1px solid rgba(0,0,0, .1);
     padding-left: 7px;
     padding-right: 7px;
-    
+
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
-    
+
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-    
+
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    
-    -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .form select{
@@ -890,7 +890,7 @@ a.btn-mod:focus{
 .form select:focus{
     color: #111;
     border-color: rgba(0,0,0, .7);
-    
+
     -webkit-box-shadow: 0 0 3px rgba(0,0,0, .3);
     -moz-box-shadow: 0 0 3px rgba(0,0,0, .3);
     box-shadow: 0 0 3px rgba(0,0,0, .3);
@@ -948,11 +948,11 @@ a.btn-mod:focus{
     color: #777;
     border-color: rgba(0,0,0, .1);
     outline: none;
-    
+
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-    
+
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
@@ -1002,14 +1002,14 @@ a.btn-mod:focus{
 /* ==============================
    Home sections
    ============================== */
-  
+
 /*
  * Header common styles
  */
 
 .home-section{
     width: 100%;
-    display: block;    
+    display: block;
     position: relative;
     overflow: hidden;
     background-repeat: no-repeat;
@@ -1072,11 +1072,11 @@ a.btn-mod:focus{
     left: 50%;
     text-align: center;
     text-decoration: none;
-    
-    -webkit-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
-    -moz-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
-    -o-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
-    transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
+
+    -webkit-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
+    -moz-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
+    -o-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
+    transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
 
 }
 
@@ -1090,22 +1090,22 @@ a.btn-mod:focus{
     bottom: 0;
     left: 50%;
     background: #fff;
-    
+
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
-    
+
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-    
-    -webkit-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
-    -moz-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
-    -o-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
+
+    -webkit-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
+    -moz-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
+    -o-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
     transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
-    
+
     z-index: 1;
 }
 
@@ -1128,9 +1128,9 @@ a.btn-mod:focus{
     -webkit-animation: scroll-down-anim 1s infinite;
     -moz-animation: scroll-down-anim 1s infinite;
     -o-animation: scroll-down-anim 1s infinite;
-    animation: scroll-down-anim 1s infinite; 
-    
-   
+    animation: scroll-down-anim 1s infinite;
+
+
    z-index: 2;
 }
 
@@ -1146,7 +1146,7 @@ a.btn-mod:focus{
     top: 0px;
     left: 0px;
     z-index: 0;
-} 
+}
 .bg-video-overlay{
     position: absolute;
     width: 100%;
@@ -1158,19 +1158,19 @@ a.btn-mod:focus{
     max-width: inherit;
     height: inherit;
     z-index: 0;
-} 
+}
 a.bg-video-button-muted{
     position: absolute;
     bottom: 0;
-    left: 15px;    
+    left: 15px;
     font-size: 28px;
-    color: #fff;  
-    opacity: .75;    
+    color: #fff;
+    opacity: .75;
     z-index: 1000;
 }
 
 
-/* 
+/*
  * Headings styles
  */
 
@@ -1180,12 +1180,12 @@ a.bg-video-button-muted{
     margin: 0 auto;
     padding: 47px 30px 53px;
     position: relative;
-    text-align: center;    
-    
+    text-align: center;
+
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    
+
     border: 1px solid rgba(255,255,255, .5);
 }
 
@@ -1194,7 +1194,7 @@ a.bg-video-button-muted{
     margin: 0 auto;
     position: relative;
     text-align: center;
-    
+
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -1377,7 +1377,7 @@ a.bg-video-button-muted{
 /* ==============================
    Top bar
    ============================== */
-  
+
 .top-bar{
     min-height: 40px;
     background: #fbfbfb;
@@ -1412,7 +1412,7 @@ a.bg-video-button-muted{
     text-transform: none;
     letter-spacing: normal;
     z-index: 2003;
-    
+
 }
 .top-links li a{
     display: block;
@@ -1423,15 +1423,15 @@ a.bg-video-button-muted{
     text-decoration: none;
     text-align: center;
     color: #999;
-    
+
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    
-    -webkit-transition: all 0.1s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.1s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.1s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.1s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.1s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.1s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.1s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.1s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .top-links li a:hover{
@@ -1476,11 +1476,11 @@ a.bg-video-button-muted{
     vertical-align: middle;
     max-width: 118px;
     height: 75px;
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .nav-logo-wrap .logo img{
@@ -1513,17 +1513,17 @@ a.logo:hover{
     left: 0;
     text-align: left;
     background: rgba(255,255,255, .97);
-    
+
     -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.05);
     -moz-box-shadow: 0 1px 0 rgba(0,0,0,.05);
     box-shadow:  0 1px 0 rgba(0,0,0,.05);
-    
+
     z-index: 1030;
-    
-    -webkit-transition: height 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: height 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: height 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: height 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: height 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: height 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: height 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: height 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 
@@ -1563,16 +1563,16 @@ a.logo:hover{
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     text-decoration: none;
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .inner-nav ul > li:first-child > a{
 
-}  
+}
 
 .inner-nav ul li a:hover {
     color: #96CA2D;
@@ -1619,7 +1619,7 @@ a.logo:hover{
     padding: 11px 15px;
     font-size: 13px;
     text-align: left;
-    text-transform: none;    
+    text-transform: none;
     border-left: none;
     border-right: none;
     letter-spacing: 0;
@@ -1730,8 +1730,8 @@ a.logo:hover{
     top: 100%;
     left: 0;
     padding: 0 15px;
-    
-    z-index: 100;    
+
+    z-index: 100;
 }
 .mobile-on .full-wrapper .desktop-nav{
     padding: 0;
@@ -1795,7 +1795,7 @@ a.logo:hover{
     margin-top: -8px;
     text-align: center;
     border: 1px solid rgba(255,255,255, .1);
-    
+
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -1840,19 +1840,19 @@ a.logo:hover{
     border-left: 1px solid rgba(0,0,0, .05);
     border-right: 1px solid rgba(0,0,0, .05);
     cursor: pointer;
-    
-    -webkit-user-select: none;  
-    -moz-user-select: none;     
-    -ms-user-select: none;     
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
     -o-user-select: none;
     user-select: none;
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    
+
     -webkit-transition-property: background, color;
     -moz-transition-property: background, color;
     -o-transition-property: background, color;
@@ -1890,7 +1890,7 @@ a.logo:hover{
     padding: 0;
     text-align: left;
     white-space: normal;
-    
+
 }
 .mobile-on .mn-sub{
     width: 100%;
@@ -1905,7 +1905,7 @@ a.logo:hover{
 
 .main-nav.dark{
     background-color: rgba(10,10,10, .95);
-    
+
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow:  none;
@@ -1941,7 +1941,7 @@ a.logo:hover{
     color: rgba(255,255,255, .9);
 }
 
-.main-nav.dark .mn-sub{    
+.main-nav.dark .mn-sub{
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow:  none;
@@ -1962,16 +1962,16 @@ a.logo:hover{
     background: transparent !important;
 }
 .main-nav.js-transparent{
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 
 
-/* 
- * Centered menu 
+/*
+ * Centered menu
  */
 
 .mn-centered{
@@ -1995,8 +1995,8 @@ a.logo:hover{
     margin-right: auto;
 }
 
-/* 
- * Aligned left menu 
+/*
+ * Aligned left menu
  */
 
 .mn-align-left{
@@ -2030,18 +2030,18 @@ a.logo:hover{
     line-height: 33px;
     text-align: center;
     font-size: 12px;
-    
+
     display: inline-block;
     border: 1px solid rgba(0,0,0, .1);
-    
+
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .mn-soc-link:hover{
@@ -2057,7 +2057,7 @@ a.logo:hover{
 /* ==============================
    Fullscreen menu
    ============================== */
- 
+
  .fm-logo-wrap{
     position: absolute;
     top: 30px;
@@ -2069,21 +2069,21 @@ a.logo:hover{
     display: block;
     max-width: 200px;
     position: relative;
-    top: 50%;  
-    
+    top: 50%;
+
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-} 
-  
+}
+
 .fm-button{
     display: block;
     position: fixed;
@@ -2095,15 +2095,15 @@ a.logo:hover{
     opacity: .85;
     text-indent: -12345px;
     z-index: 1030;
-    
+
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    
-    -webkit-transition: opacity 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: opacity 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: opacity 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: opacity 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: opacity 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: opacity 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: opacity 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: opacity 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .fm-button:hover{
@@ -2118,11 +2118,11 @@ a.logo:hover{
     top: 50%;
     left: 50%;
     margin: -1px 0 0 -11px;
-    
-    -webkit-transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .fm-button span:before,
@@ -2156,18 +2156,18 @@ a.logo:hover{
 .fm-button.active span{
     background: transparent;
 }
-.fm-button.active span:before{ 
-    top: 0;   
+.fm-button.active span:before{
+    top: 0;
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-.fm-button.active span:after{    
+.fm-button.active span:after{
     bottom: 0;
     -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg); 
+    -moz-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
@@ -2187,7 +2187,7 @@ a.logo:hover{
     overflow-y: auto;
     background: rgba(10,10,10, .97);
     z-index: 2000;
-    
+
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -2197,17 +2197,17 @@ a.logo:hover{
     width: 100%;
     height: 100%;
     opacity: 0;
-    
+
     -webkit-transform: translateY(30px);
     -moz-transform: translateY(30px);
     -o-transform: translateY(30px);
     -ms-transform: translateY(30px);
     transform: translateY(30px);
-    
-    -webkit-transition: all 0.1s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.1s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.1s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.1s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.1s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.1s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.1s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.1s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .fm-wrapper-sub.js-active{
@@ -2246,15 +2246,15 @@ a.logo:hover{
     text-transform: uppercase;
     text-decoration: none;
     cursor: pointer;
-    
-    -webkit-tap-highlight-color: rgba(255,255,255, .1); 
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-tap-highlight-color: rgba(255,255,255, .1);
+
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    
+
     z-index: 11;
 }
 .no-touch .fm-menu-links a:hover,
@@ -2283,7 +2283,7 @@ a.logo:hover{
 }
 
 .fm-has-sub{
-    
+
 }
 .fm-has-sub .fa{
     font-size: 14px;
@@ -2345,18 +2345,18 @@ a.logo:hover{
     height: 34px;
     line-height: 34px;
     border: 1px solid rgba(255,255,255, .15);
-    text-align: center;    
+    text-align: center;
     text-decoration: none;
     color: #555;
-    
-    -webkir-border-radius: 50%; 
-    -moz-border-radius: 50%; 
-    border-radius: 50%; 
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkir-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .fm-social-links > a:hover{
@@ -2376,22 +2376,22 @@ a.logo:hover{
 .page-section,
 .small-section{
     width: 100%;
-    display: block;    
+    display: block;
     position: relative;
     overflow: hidden;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
-    
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    
+
     padding: 140px 0;
 }
 .small-section{
@@ -2474,11 +2474,11 @@ a.logo:hover{
 .bg-color-alfa a{
     color: rgba(255,255,255, .8);
     padding-bottom: 3px;
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 
@@ -2538,7 +2538,7 @@ a.logo:hover{
 }
 
 .bg-dark{
-    background-color: #222;
+    background-color: #B5E655;
 }
 .bg-dark-lighter{
     background-color: #252525;
@@ -2581,7 +2581,7 @@ a.logo:hover{
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(17,17,17, .7);
+    _background: rgba(17,17,17, .7);
 }
 .bg-dark-alfa-90:before,
 .bg-dark-alfa-90 .YTPOverlay:before{
@@ -2731,17 +2731,17 @@ span#name {
     font-weight: 400;
     letter-spacing: 0.4em;
     text-decoration: none;
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .section-more:hover{
     text-decoration: none;
     color: #000;
- 
+
 }
 .section-more .fa{
     font-size: 12px;
@@ -2775,7 +2775,7 @@ span#name {
     margin: 140px 0 -140px;
     text-align: center;
     -webkit-backface-visibility: hidden;
-    -webkit-transform: translateZ(0); 
+    -webkit-transform: translateZ(0);
 }
 .image-fullwidth img{
     width: 100%;
@@ -2790,11 +2790,11 @@ span#name {
     letter-spacing: 0.4em;
     text-decoration: none;
     text-transform: uppercase;
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .mod-breadcrumbs span{
@@ -2805,7 +2805,7 @@ span#name {
 
 }
 .mod-breadcrumbs a:hover{
-    text-decoration: none; 
+    text-decoration: none;
 }
 .mod-breadcrumbs .fa{
     font-size: 12px;
@@ -2847,7 +2847,7 @@ span#name {
 
 .split-section{
     width: 100%;
-    display: block;    
+    display: block;
     position: relative;
     overflow: hidden;
     background-attachment: fixed;
@@ -2858,12 +2858,12 @@ span#name {
     -o-background-size: cover;
     background-size: cover;
 }
-.split-section-headings{    
+.split-section-headings{
     width: 50%;
     position: relative;
     overflow: hidden;
     text-align: center;
-    
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -2875,11 +2875,11 @@ span#name {
     display: table;
 }
 .ssh-cell{
-    display: table-cell;    
+    display: table-cell;
     padding-left: 10px;
     padding-right: 10px;
     vertical-align: middle;
-    
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -2890,7 +2890,7 @@ span#name {
     width: 50%;
     position: relative;
     overflow: hidden;
-    
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -2909,7 +2909,7 @@ span#name {
     margin-top: -60px;
 }
 .alt-services-image{
-    text-align: center;   
+    text-align: center;
 }
 .alt-services-image > img{
     display: block;
@@ -2923,17 +2923,17 @@ span#name {
     font-size: 13px;
     font-weight: 300;
     color: #999;
-    
+
     -webkit-transform: perspective(500px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
     -moz-transform: perspective(500px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
     -o-transform: perspective(500px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
     -ms-transform: perspective(500px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
     transform: perspective(500px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-    
-    -webkit-transition: all 0.3s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.3s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.3s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.3s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.3s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.3s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.3s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.3s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .alt-service-icon{
@@ -2946,11 +2946,11 @@ span#name {
     text-align: center;
     font-size: 28px;
     color: #111;
-    
-    -webkit-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .alt-services-title{
@@ -2968,10 +2968,10 @@ span#name {
    ============================== */
 
 .team-grid{
-    
+
 }
 .team-item{
-    
+
 }
 .team-item-image{
     position: relative;
@@ -2991,13 +2991,13 @@ span#name {
     top: 0;
     left: 0;
     background: transparent;
-    
+
     z-index: 1;
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 
@@ -3013,30 +3013,30 @@ span#name {
     color: #777;
     text-align: center;
     z-index: 2;
-    
+
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     transform: translateY(-50%);
-    
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 
 .team-item-descr{
     color: #777;
     text-align:center;
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 
@@ -3061,11 +3061,11 @@ span#name {
     display: inline-block;
     padding: 3px 7px;
     color: rgba(0,0,0, .4);
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 
@@ -3078,7 +3078,7 @@ span#name {
 .no-mobile .team-item:hover .team-item-detail{
     opacity: 1;
 }
-.no-mobile .team-item:hover .team-item-descr{    
+.no-mobile .team-item:hover .team-item-descr{
     color: #111;
 }
 .no-mobile .team-social-links a:hover{
@@ -3092,7 +3092,7 @@ span#name {
 .team-item.js-active .team-item-detail{
     opacity: 1;
 }
-.team-item.js-active .team-item-descr{    
+.team-item.js-active .team-item-descr{
     color: #111;
 }
 .team-item.js-active .team-social-links a:hover{
@@ -3107,7 +3107,7 @@ span#name {
 .features-item{
     padding: 15px;
     text-align: center;
-    
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -3210,11 +3210,11 @@ span#name {
     text-align: center;
     line-height: 1;
     color: rgba(0,0,0, .025);
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .benefit-icon{
@@ -3244,15 +3244,15 @@ span#name {
     position: absolute;
     bottom: 0;
     left: 0;
-    background: rgba(0,0,0, .015);    
-    opacity: 0;    
-    
-    -webkit-transition: all 0.37s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    background: rgba(0,0,0, .015);
+    opacity: 0;
+
+    -webkit-transition: all 0.37s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    
+
     -webkit-transform: scale(0.5);
     -moz-transform: scale(0.5);
     -o-transform: scale(0.5);
@@ -3260,7 +3260,7 @@ span#name {
     transform: scale(0.5);
 }
 .benefit-item:hover:after{
-    opacity: 1;    
+    opacity: 1;
     -webkit-transform: none;
     -moz-transform: none;
     -o-transform: none;
@@ -3276,7 +3276,7 @@ span#name {
     transform: scale(0.75);
 }
 
-  
+
 
 /* ==============================
    Counters
@@ -3339,13 +3339,13 @@ span#name {
     margin: 0 27px;
     color: #999;
     text-decoration: none;
-    
-    -webkit-transition: all 0.37s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.37s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    
+
     cursor: pointer;
 }
 .works-filter a:hover{
@@ -3362,7 +3362,7 @@ span#name {
 
 
 /*
- * Works grid 
+ * Works grid
  */
 
 .works-grid{
@@ -3374,7 +3374,7 @@ span#name {
     width: 25%;
     float: left;
     margin: 0;
-    
+
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -3400,7 +3400,7 @@ span#name {
 }
 
 .work-item > a{
-    display: block;    
+    display: block;
     padding: 0 0 84px 0;
     position: relative;
     -moz-box-sizing: border-box;
@@ -3425,11 +3425,11 @@ span#name {
     width: 100%;
     height: 84px;
     padding: 20px 20px 0 20px;
-    
+
     -webkit-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    
+
     position: absolute;
     bottom: 0;
     left: 0;
@@ -3445,7 +3445,7 @@ span#name {
     letter-spacing: 0.2em;
     line-height: 1.2;
 }
-.work-descr{    
+.work-descr{
     font-size: 11px;
     text-align: center;
     text-transform: uppercase;
@@ -3453,7 +3453,7 @@ span#name {
     line-height: 1.2;
 }
 .works-grid.hide-titles .work-item > a{
-    overflow: hidden;    
+    overflow: hidden;
     padding: 0;
 }
 .works-grid.hide-titles .work-item .work-intro{
@@ -3469,10 +3469,10 @@ span#name {
 /* Work item hover state */
 
 .work-intro{
-    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
 }
 
@@ -3480,12 +3480,12 @@ span#name {
     /*bottom: auto;*/
     /*top: 50%;*/
     color: #fff;
-    
+
     -webkit-transform: translateY(-99px);
     -moz-transform: translateY(-99px);
-    transform: translateY(-99px);    
-    
-    z-index: 3; 
+    transform: translateY(-99px);
+
+    z-index: 3;
 }
 .work-item:hover .work-title{
     color: #ccc;
@@ -3502,15 +3502,15 @@ span#name {
     top: 0;
     left: 0;
     background: rgba(250,250,250, 0);
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+
+    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-    
+
 }
-.work-item:hover .work-img:after{    
+.work-item:hover .work-img:after{
     background: rgba(20,20,20, .85);
 }
 
@@ -3519,7 +3519,7 @@ span#name {
 .works-grid.hover-color .work-item:hover .work-descr{
     color: #fff;
 }
-.works-grid.hover-color .work-item:hover .work-img:after{    
+.works-grid.hover-color .work-item:hover .work-img:after{
     background: #e41919;
     opacity: .73;
 }
@@ -3528,15 +3528,15 @@ span#name {
 .works-grid.hover-white .work-item:hover .work-descr{
     color: #000;
 }
-.works-grid.hover-white .work-item:hover .work-img:after{    
+.works-grid.hover-white .work-item:hover .work-img:after{
     background: rgba(250,250,250, .9);
 }
 
 .work-item .work-img > img{
-    -webkit-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
-    -moz-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+    -webkit-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -moz-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     -o-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-    -ms-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+    -ms-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
 }
 
@@ -3587,11 +3587,11 @@ span#name {
 
 .work-navigation{
     width: 100%;
-    background: #fff;    
+    background: #fff;
     font-size: 11px;
     text-transform: uppercase;
-    letter-spacing: 2px;    
-    
+    letter-spacing: 2px;
+
     z-index: 99;
 }
 .work-navigation .fa{
@@ -3613,11 +3613,11 @@ span#name {
     cursor: default;
 }
 .work-navigation a,
-.work-navigation a:visited{ 
-    color: #555; 
+.work-navigation a:visited{
+    color: #555;
 }
-.work-navigation a:hover{ 
-    color: #111; 
+.work-navigation a:hover{
+    color: #111;
 }
 .work-navigation a span{
     display: inline-block;
@@ -3626,7 +3626,7 @@ span#name {
     padding: 0 4%;
     background: #fff;
     cursor: pointer;
-    
+
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
@@ -3643,7 +3643,7 @@ span#name {
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #151515; 
+    color: #151515;
 }
 .work-prev{
     text-align: left;
@@ -3679,7 +3679,7 @@ span#name {
     font-size: 13px;
     color: #777;
 }
-.work-full-text h6{ 
+.work-full-text h6{
     margin-top: 5px;
 }
 .work-detail{
@@ -3694,7 +3694,7 @@ span#name {
     letter-spacing: 1px;
     text-transform: uppercase;
 }
-.work-full-detail p{ 
+.work-full-detail p{
     padding: 4px 0;
     margin: 0;
     border-top: 1px solid rgba(0,0,0, .05);
@@ -3702,7 +3702,7 @@ span#name {
 .work-full-detail p:last-child{
     border-bottom: 1px solid rgba(0,0,0, .05);
 }
-.work-full-detail p strong{ 
+.work-full-detail p strong{
     width: 100px;
     display: inline-block;
 }
@@ -3735,7 +3735,7 @@ span#name {
 
 .banner-decription{
     margin-bottom: 35px;
-    font-size: 18px;    
+    font-size: 18px;
     font-weight: 300;
     color: rgba(255,255,255, .7);
 }
@@ -3745,7 +3745,7 @@ span#name {
     text-align: right;
 }
 .banner-image img{
-    
+
 }
 
 
@@ -3781,13 +3781,13 @@ span#name {
     height: 80px;
     text-align: center;
     opacity: .75;
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+
+    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-    
+
 }
 .logo-item:hover{
     opacity: 1;
@@ -3795,7 +3795,7 @@ span#name {
 .logo-item img{
     position: relative;
     top: 50%;
-    
+
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -o-transform: translateY(-50%);
@@ -3810,17 +3810,17 @@ span#name {
    ============================== */
 
 .post-grid{
-    
+
 }
 .post-prev-img{
     margin-bottom: 23px;
     position: relative;
 }
 .post-prev-img a{
-    -webkit-transition: all 0.2s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
-    -moz-transition: all 0.2s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+    -webkit-transition: all 0.2s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -moz-transition: all 0.2s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     -o-transition: all 0.2s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-    -ms-transition: all 0.2s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+    -ms-transition: all 0.2s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     transition: all 0.2s cubic-bezier(0.300, 0.100, 0.580, 1.000);
 }
 .post-prev-img a:hover{
@@ -3838,11 +3838,11 @@ span#name {
 .post-prev-title a{
     color: #777;
     text-decoration: none;
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+
+    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
 }
 .post-prev-title a:hover{
@@ -3854,11 +3854,11 @@ span#name {
     font-size: 11px;
     text-decoration: none;
     color: #aaa;
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+
+    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
 }
 .post-prev-info a:hover{
@@ -3889,10 +3889,10 @@ span#name {
     max-width: 293px;
 }
 .form input.newsletter-field:hover{
-    
+
 }
 .form input.newsletter-field:focus{
-    
+
 }
 
 .form input.newsletter-field::-webkit-input-placeholder{
@@ -3932,16 +3932,16 @@ span#name {
     position: relative;
     padding-left: 44px;
     color: #444;
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+
+    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
 }
 .contact-item a{
     color: #444;
-    text-decoration: none;    
+    text-decoration: none;
 }
 
 .contact-item a:hover{
@@ -3968,17 +3968,17 @@ span#name {
     top: 0;
     left: 0;
     background: #111;
-    
+
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
-    
+
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-    
+
 }
 .ci-icon i,
 .ci-icon span{
@@ -3986,7 +3986,7 @@ span#name {
 }
 .ci-title{
     margin-bottom: 1px;
-    color: #777;    
+    color: #777;
     font-size: 12px;
     font-weight: 400;
     text-transform: uppercase;
@@ -4021,16 +4021,16 @@ span#name {
 
 .footer{
     text-align: center;
-    font-size: 12px;   
+    font-size: 12px;
 }
 .footer a{
     color: #888;
     text-decoration: none;
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+
+    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
 }
 .footer a:hover{
@@ -4060,18 +4060,18 @@ span#name {
     text-align: center;
     display: inline-block;
     color: #656565;
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+
+    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
 }
 .footer-social-links a i,
 .footer-social-links a span{
     position: relative;
     top: 0;
-    left: 0; 
+    left: 0;
 }
 .footer-social-links a:before{
     content: "";
@@ -4082,23 +4082,23 @@ span#name {
     top: 0;
     left: 0;
     border: 1px solid #656565;
-    
+
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
-    
+
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+
+    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-    
+
 }
 .footer-social-links a:hover{
     color: #fff;
@@ -4143,7 +4143,7 @@ a.link-to-top{
     text-align: center;
     color: #999;
     border-right: 1px solid #eee;
-    
+
 }
 .date-num{
     display: block;
@@ -4189,10 +4189,10 @@ a.link-to-top{
 .blog-item-data a{
     color: #aaa;
     text-decoration: none;
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .blog-item-data a:hover{
@@ -4229,11 +4229,11 @@ a.link-to-top{
     text-transform: uppercase;
     color: #777;
     letter-spacing: 1px;
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .blog-item-more:hover{
@@ -4266,10 +4266,10 @@ a.blog-item-more:hover{
 .blog-item-q p a{
     color: #555;
     text-decoration: none;
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .blog-item-q:hover a,
@@ -4279,10 +4279,10 @@ a.blog-item-more:hover{
 }
 .blog-item-q p:before,
 .blog-item-q p:after{
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .blog-item-q p:before{
@@ -4328,11 +4328,11 @@ a.blog-item-more:hover{
     text-transform: uppercase;
     text-align: center;
     text-decoration: none;
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .pagination .fa{
@@ -4396,10 +4396,10 @@ a.blog-item-more:hover{
 .comment-item-data a{
     color: #777;
     text-decoration: none;
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .comment-item-data a:hover{
@@ -4410,7 +4410,7 @@ a.blog-item-more:hover{
     display: inline-block;
     margin-right: 20px;
     font-size: 11px;
-    font-weight: 700; 
+    font-weight: 700;
 }
 .comment-author a{
     color: #999;
@@ -4471,7 +4471,7 @@ a.blog-item-more:hover{
     margin-top: -20px;
     position: absolute;
     top: 50%;
-    right: 1px;    
+    right: 1px;
     overflow: hidden;
     background: transparent;
     border: none;
@@ -4495,7 +4495,7 @@ a.blog-item-more:hover{
 }
 .widget-menu li{
     padding: 5px 0;
-    
+
 }
 .widget-menu li a{
     color: #555;
@@ -4503,11 +4503,11 @@ a.blog-item-more:hover{
     padding-bottom: 2px;
     text-decoration: none;
     border-bottom: 1px solid transparent;
-    
-    -webkit-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .widget-menu li a:hover,
@@ -4516,14 +4516,14 @@ a.blog-item-more:hover{
 }
 .widget-menu li small{
     font-size: 11px;
-    color: #aaa; 
+    color: #aaa;
 }
 
 
 /* Widget tags */
 
 .tags{
-    
+
 }
 .tags a{
     display: inline-block;
@@ -4536,11 +4536,11 @@ a.blog-item-more:hover{
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 1px;
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .tags a:hover{
@@ -4560,11 +4560,11 @@ a.blog-item-more:hover{
 .widget-comments li a{
     color: #555;
     text-decoration: none;
-    
-    -webkit-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .widget-comments li a:hover{
@@ -4586,11 +4586,11 @@ a.blog-item-more:hover{
     display: block;
     color: #555;
     text-decoration: none;
-    
-    -webkit-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .widget-posts li a:hover{
@@ -4608,7 +4608,7 @@ a.blog-item-more:hover{
 /* ==============================
    Shop
    ============================== */
-  
+
 .shopping-cart-table{
 
 }
@@ -4633,11 +4633,11 @@ table.shopping-cart-table tr td{
 .pricing-item-inner{
     border: 1px solid #eaeaea;
     vertical-align: middle;
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 
@@ -4650,11 +4650,11 @@ table.shopping-cart-table tr td{
 
 .pricing-wrap{
     position: relative;
-    
+
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    
+
     padding: 30px 20px;
     text-align: center;
     overflow: hidden;
@@ -4679,11 +4679,11 @@ table.shopping-cart-table tr td{
 .pr-list{
     margin: 0 -20px 30px;
     padding: 0;
-    
+
     color: #777;
     font-size: 12px;
     font-weight: 400;
-    text-transform: uppercase;    
+    text-transform: uppercase;
     letter-spacing: 2px;
 }
 .pr-list li{
@@ -4698,7 +4698,7 @@ table.shopping-cart-table tr td{
     font-size: 40px;
     font-weight: 300;
     line-height: 1;
-    
+
 }
 .pricing-num sup{
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
@@ -4753,13 +4753,13 @@ table.shopping-cart-table tr td{
     font-size: 18px;
     text-align: center;
     color: #111;
-    
+
     z-index: 6;
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .owl-prev{
@@ -4777,27 +4777,27 @@ table.shopping-cart-table tr td{
     position: absolute;
     top: 17px;
     left: 0;
-    
+
     background: #fff;
-    
+
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
-    
+
     -webkit-box-shadow: 1px 1px 0px rgba(0, 0, 0, .1);
     -moz-box-shadow: 1px 1px 0px rgba(0, 0, 0, .1);
     box-shadow: 1px 1px 0px rgba(0, 0, 0, .1);
-    
+
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .owl-next:before{
@@ -4809,19 +4809,19 @@ table.shopping-cart-table tr td{
     position: relative;
 }
 .owl-prev:hover,
-.owl-next:hover{    
-    -webkit-transition: 0 none !important;  
-    -moz-transition: 0 none !important;  
+.owl-next:hover{
+    -webkit-transition: 0 none !important;
+    -moz-transition: 0 none !important;
      -ms-transition: 0 none !important;
-    -o-transition: 0 none !important;    
-    transition:0 none !important;  
+    -o-transition: 0 none !important;
+    transition:0 none !important;
 }
 .owl-prev:hover:before,
 .owl-next:hover:before{
     opacity: 0.87;
 }
 .owl-prev:active:before,
-.owl-next:active:before{    
+.owl-next:active:before{
     opacity: 0.6;
 }
 .owl-carousel:hover .owl-prev{
@@ -4852,28 +4852,28 @@ table.shopping-cart-table tr td{
     background: rgba(255,255,255, .7);
     position: relative;
     z-index: 1000 !important;
-    
+
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
-    
+
     -webkit-box-shadow: 1px 1px 0px rgba(0, 0, 0, .1);
     -moz-box-shadow: 1px 1px 0px rgba(0, 0, 0, .1);
     box-shadow: 1px 1px 0px rgba(0, 0, 0, .1);
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .owl-page:hover span{
     background: rgba(255,255,255, 1);
 }
-.owl-page.active span{    
+.owl-page.active span{
     background: transparent;
     bordeR: 1px solid rgba(255,255,255, .8);
-    
+
     -webkit-transform: scale(1.3333333);
     -moz-transform: scale(1.3333333);
     -o-transform: scale(1.3333333);
@@ -4923,7 +4923,7 @@ section:hover .item-carousel.owl-carousel .owl-next{
 .single-carousel.black .owl-page span,
 .small-item-carousel.black .owl-page span{
     background: rgba(0,0,0, .15);
-    
+
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -4943,7 +4943,7 @@ section:hover .item-carousel.owl-carousel .owl-next{
 .small-item-carousel.black .owl-next{
     color: rgba(0,0,0, .2);
     text-shadow: none;
-    
+
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -4993,7 +4993,7 @@ section:hover .small-item-carousel .owl-next{
     font-size: 12px;
     font-weight: 400;
     text-transform: uppercase;
-    letter-spacing: 1px;    
+    letter-spacing: 1px;
 }
 .tpl-tabs > li > a{
     text-decoration: none;
@@ -5024,7 +5024,7 @@ section:hover .small-item-carousel .owl-next{
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: 1px;    
+    letter-spacing: 1px;
     border: none;
 }
 .tpl-minimal-tabs > li{
@@ -5037,7 +5037,7 @@ section:hover .small-item-carousel .owl-next{
     color: #000;
     background: none;
     border: 1px solid transparent;
-    
+
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
@@ -5067,28 +5067,28 @@ section:hover .small-item-carousel .owl-next{
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: 0.4em;    
+    letter-spacing: 0.4em;
     border: none;
 }
 .tpl-alt-tabs > li{
     width: 215px;
     display: inline-block;
     vertical-align: top;
-    float: none;    
-    padding: 0;    
+    float: none;
+    padding: 0;
     background: none !important;
-    
+
 }
 .tpl-alt-tabs > li > a{
     text-decoration: none;
     color: #a3a3a3;
     background: none !important;
     border: none !important;
-    
-    -webkit-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
-    -moz-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
-    -o-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
-    transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
+
+    -webkit-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
+    -moz-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
+    -o-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
+    transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
 }
 .tpl-alt-tabs > li > a:hover{
     background: none;
@@ -5116,22 +5116,22 @@ section:hover .small-item-carousel .owl-next{
 
 .alert{
     margin: 0 auto 10px;
-    padding: 14px 20px; 
-    
+    padding: 14px 20px;
+
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    
+
     border: 1px solid #ddd;
     font-size: 11px;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #777;
-    
+
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
-    
+
 }
 .success{
     border-color: #a9e2c2;
@@ -5169,18 +5169,18 @@ section:hover .small-item-carousel .owl-next{
     text-decoration: none;
     padding: 14px 20px;
     border: 1px solid #e5e5e5;
-    
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .accordion > dt > a:hover{
     text-decoration: none;
     border-color: #ddd;
-    background-color: #fcfcfc;    
+    background-color: #fcfcfc;
     color: #444;
 }
 .accordion > dt > a.active{
@@ -5208,10 +5208,10 @@ section:hover .small-item-carousel .owl-next{
     text-align: center;
     color: #999;
     -webkit-font-smoothing: antialiased;
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .accordion > dt > a.active:after,
@@ -5250,17 +5250,17 @@ section:hover .small-item-carousel .owl-next{
     text-decoration: none;
     padding: 14px 20px;
     border: 1px solid #e5e5e5;
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .toggle > dt > a:hover{
     text-decoration: none;
     border-color: #ddd;
-    background-color: #fcfcfc;    
+    background-color: #fcfcfc;
     color: #444;
 }
 .toggle > dt > a.active{
@@ -5287,10 +5287,10 @@ section:hover .small-item-carousel .owl-next{
     text-align: center;
     color: #999;
     -webkit-font-smoothing: antialiased;
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .toggle > dt > a.active:after,
@@ -5323,11 +5323,11 @@ section:hover .small-item-carousel .owl-next{
     overflow: visible;
     height: 2px;
     background: #f0f0f0;
-    
+
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
-    
+
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -5345,7 +5345,7 @@ section:hover .small-item-carousel .owl-next{
     box-sizing: border-box;
 }
 .tpl-progress .progress-bar > span{
-    display: inline-block;    
+    display: inline-block;
     min-width: 24px;
     height: 24px;
     padding: 0 3px;
@@ -5356,7 +5356,7 @@ section:hover .small-item-carousel .owl-next{
     text-align: center;
     line-height: 23px;
     letter-spacing: 0;
-    
+
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
@@ -5374,11 +5374,11 @@ section:hover .small-item-carousel .owl-next{
 /* Alt bar */
 .tpl-progress-alt{
     background: #f2f2f2;
-    
+
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
-    
+
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -5403,7 +5403,7 @@ section:hover .small-item-carousel .owl-next{
     border-color: #eaeaea;
     background: #fcfcfc;
     color: #555;
-    
+
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
@@ -5506,7 +5506,7 @@ section:hover .small-item-carousel .owl-next{
     color: white;
     padding: 2px 3px;
     font-size: 9px;
-    font-weight: 700; 
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -5529,7 +5529,7 @@ section:hover .small-item-carousel .owl-next{
     letter-spacing: 1px;
     line-height: 50px;
     background: #f32929;
-    
+
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -5574,11 +5574,11 @@ section:hover .small-item-carousel .owl-next{
     display: block;
     color: #555;
     text-decoration: none;
-    
-    -webkit-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .blog-post-prev-small a:hover{
@@ -5586,10 +5586,10 @@ section:hover .small-item-carousel .owl-next{
 }
 
 .blog-posts-carousel-alt li img{
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .blog-posts-carousel-alt li:hover img{
@@ -5598,13 +5598,13 @@ section:hover .small-item-carousel .owl-next{
     -o-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
-    
-    -webkit-transition: all 5s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 5s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 5s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 5s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 5s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 5s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
-    transition: all 5s cubic-bezier(0.000, 0.000, 0.580, 1.000);    
-    
+    -ms-transition: all 5s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    transition: all 5s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+
 }
 .blog-slide-info{
     width: 100%;
@@ -5617,11 +5617,11 @@ section:hover .small-item-carousel .owl-next{
     font-size: 11px;
     letter-spacing: 1px;
     color: rgba(255,255,255, .75);
-    
+
     -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;    
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
-    
+
     background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .5)));
     background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, .3));
     background: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, .3));
@@ -5629,7 +5629,7 @@ section:hover .small-item-carousel .owl-next{
     background: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, .3));
     background: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, .3));
     background-color: rgba(0, 0, 0, 0);
-    
+
     background: rgba(0,0,0, .65);
 }
 .blog-slide-title{
@@ -5642,11 +5642,11 @@ section:hover .small-item-carousel .owl-next{
     display: block;
     color: rgba(255,255,255, .85);
     text-decoration: none;
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+
+    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
 }
 .blog-slide-title a:hover{
@@ -5660,10 +5660,10 @@ section:hover .small-item-carousel .owl-next{
 .blog-slide-data a{
     color: rgba(255,255,255, .65);
     text-decoration: none;
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .blog-slide-data a:hover{
@@ -5685,10 +5685,10 @@ section:hover .small-item-carousel .owl-next{
 .play-video-link:focus{
     color: #777;
     text-decoration: none;
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .play-video-link .fa{
@@ -5702,11 +5702,11 @@ section:hover .small-item-carousel .owl-next{
     border: 2px solid #111;
     text-align: left;
     text-decoration: none;
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .download-button:hover,
@@ -5755,9 +5755,9 @@ section:hover .small-item-carousel .owl-next{
     bottom: 0;
     left: 0;
     padding: 60px 0 20px 0;
-    
+
     z-index: 25;
-    
+
     background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .65)));
     background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, .65));
     background: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, .65));
@@ -5768,10 +5768,10 @@ section:hover .small-item-carousel .owl-next{
 }
 .fullwidth-slideshow-pager-wrap .owl-item{
     opacity: .7;
-    -webkit-transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -webkit-transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .fullwidth-slideshow-pager-wrap .owl-item:hover{
@@ -5796,7 +5796,7 @@ section:hover .small-item-carousel .owl-next{
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -border-radius: 2px;
-    
+
     -webkit-box-shadow: 0px 1px 5px rgba(0, 0, 0, .75);
     -moz-box-shadow: 0px 1px 5px rgba(0, 0, 0, .75);
     box-shadow: 0px 1px 5px rgba(0, 0, 0, .75);
@@ -5819,7 +5819,7 @@ section:hover .small-item-carousel .owl-next{
     left: 0;
     background: rgba(10,10,10, .85);
     cursor:crosshair;
-    
+
     z-index: 1030;
 }
 .side-panel{
@@ -5833,9 +5833,9 @@ section:hover .small-item-carousel .owl-next{
     color: rgba(255,255,255, .65);
     background: #151515;
     text-align: center;
-    
+
     z-index: 1031;
-    
+
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -5849,29 +5849,29 @@ section:hover .small-item-carousel .owl-next{
     height: 36px;
     border: 1px solid rgba(255,255,255, .5);
     opacity: .5;
-    
+
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-   
-    
+
+
     -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg); 
+    -moz-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    
-    -webkit-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .sp-close-button:hover{
     opacity: .75;
-    
+
     -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg); 
+    -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -5910,15 +5910,15 @@ section:hover .small-item-carousel .owl-next{
     opacity: .85;
     text-indent: -12345px;
     z-index: 1030;
-    
+
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    
-    -webkit-transition: opacity 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: opacity 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: opacity 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: opacity 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: opacity 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: opacity 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: opacity 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: opacity 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .sp-button:hover{
@@ -5933,11 +5933,11 @@ section:hover .small-item-carousel .owl-next{
     top: 50%;
     left: 50%;
     margin: -1px 0 0 -11px;
-    
-    -webkit-transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .sp-button span:before,
@@ -5970,13 +5970,13 @@ section:hover .small-item-carousel .owl-next{
     display: block;
     padding: 30px;
     text-align: center;
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-} 
+}
 .sp-logo-wrap .logo img{
     max-width: 100%;
 }
@@ -5984,7 +5984,7 @@ section:hover .small-item-carousel .owl-next{
 /* Menu */
 
 .sp-wrapper{
-    
+
 }
 .sp-menu-links,
 .sp-menu-links ul{
@@ -6008,15 +6008,15 @@ section:hover .small-item-carousel .owl-next{
     text-transform: uppercase;
     text-decoration: none;
     cursor: pointer;
-    
-    -webkit-tap-highlight-color: rgba(255,255,255, .1); 
-        
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkit-tap-highlight-color: rgba(255,255,255, .1);
+
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    
+
     z-index: 11;
 }
 .no-touch .sp-menu-links a:hover,
@@ -6047,7 +6047,7 @@ section:hover .small-item-carousel .owl-next{
 }
 
 .sp-has-sub{
-    
+
 }
 .sp-has-sub .fa{
     font-size: 14px;
@@ -6106,11 +6106,11 @@ section:hover .small-item-carousel .owl-next{
     font-size: 14px;
     text-align: center;
     background: transparent;
-    
+
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    
+
     z-index: 1032;
 }
 .sp-social-links > a{
@@ -6120,18 +6120,18 @@ section:hover .small-item-carousel .owl-next{
     height: 34px;
     line-height: 34px;
     border: 1px solid rgba(255,255,255, .15);
-    text-align: center;    
+    text-align: center;
     text-decoration: none;
     color: #555;
-    
-    -webkir-border-radius: 50%; 
-    -moz-border-radius: 50%; 
-    border-radius: 50%; 
-    
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+    -webkir-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .sp-social-links > a:hover{
@@ -6158,7 +6158,7 @@ section:hover .small-item-carousel .owl-next{
 }
 .side-panel.white .sp-menu-links a{
     color: #777;
-    -webkit-tap-highlight-color: rgba(0,0,0, .05); 
+    -webkit-tap-highlight-color: rgba(0,0,0, .05);
 }
 .side-panel.white .sp-menu-links li{
     border-top: 1px solid rgba(0,0,0, .04);
@@ -6216,7 +6216,7 @@ section:hover .small-item-carousel .owl-next{
     width: 100%;
     height: 100%;
     margin: 0 auto;
-} 
+}
 .tilt__back, .tilt__front{
     width: 100%;
     height: 100%;
@@ -6225,10 +6225,10 @@ section:hover .small-item-carousel .owl-next{
     background-size: cover;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-} 
+}
 .tilt__back{
     position: relative;
-} 
+}
 .tilt__front{
     position: absolute;
     top: 0;
@@ -6283,17 +6283,17 @@ section:hover .small-item-carousel .owl-next{
     top: 0;
     left: 0;
     background: rgba(255,255,255, .95);
-    
+
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    
+
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-    
+
     z-index: 1;
 }
 
@@ -6415,7 +6415,7 @@ body{background-color:#eee;}
     color: #414141;
 }
 
-#generic_price_table .generic_content .generic_feature_list ul li{  
+#generic_price_table .generic_content .generic_feature_list ul li{
     color: #a7a7a7;
 }
 
@@ -6428,9 +6428,9 @@ body{background-color:#eee;}
 }
 
 #generic_price_table .generic_content .generic_price_btn a{
-    border: 1px solid #96CA2D; 
+    border: 1px solid #96CA2D;
     color: #96CA2D;
-} 
+}
 
 #generic_price_table .generic_content.active .generic_head_price .generic_head_content .head_bg,
 #generic_price_table .generic_content:hover .generic_head_price .generic_head_content .head_bg{
@@ -6447,7 +6447,7 @@ body{background-color:#eee;}
 #generic_price_table .generic_content.active .generic_price_btn a{
     background-color: #96CA2D;
     color: #fff;
-} 
+}
 #generic_price_table{
     margin: 50px 0 50px 0;
     font-family: 'Raleway', sans-serif;
@@ -6593,8 +6593,8 @@ body{background-color:#eee;}
     -ms-transition: all 0.3s ease-in-out 0s;
     -o-transition: all 0.3s ease-in-out 0s;
     -webkit-transition: all 0.3s ease-in-out 0s;
-} 
-@media (max-width: 320px) { 
+}
+@media (max-width: 320px) {
 }
 
 @media (max-width: 767px) {
@@ -6607,12 +6607,12 @@ body{background-color:#eee;}
         float:left;
         width:50%;
     }
-    
+
     #generic_price_table .col-md-4{
         float:left;
         width:50%;
     }
-    
+
     #generic_price_table .generic_content{
         margin-bottom:75px;
     }
@@ -6776,7 +6776,7 @@ body{background-color:#eee;}
     background-color: #666;
     color: #FFF;
     text-decoration:none;
-    
+
 }
 .bottom_btn:hover{
     background-color: #666;
