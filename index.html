@@ -44,20 +44,6 @@
 
 <body class="appear-animate">
 
-    <!-- form itself -->
-    <form method="post" action="#" id="test-form" role="form" class="form white-popup-block mfp-hide">
-        <div class="mb-20 mb-md-10">
-            <!-- Name -->
-            <input type="text" name="name" id="name" class="input-md form-control" placeholder="Name" maxlength="100">
-        </div>
-        <div class="mb-20 mb-md-10">
-            <!-- Email -->
-            <input type="email" name="email" id="email" class="input-md form-control" placeholder="Email" maxlength="100">
-        </div>
-        <div class="mb-20 mb-md-10">
-            <button class="submit_btn btn btn-mod btn-medium btn-round" id="submit_btn">Request trial bundle</button>
-        </div>
-    </form>
 
 
     <!-- Page Loader -->
@@ -387,39 +373,6 @@
         <!-- End Section -->
 
 
-        <!-- Call Action Section -->
-        <!-- <section class="page-section pt-0 pb-0 banner-section bg-dark" data-background="images/full-width-images/section-bg-2.jpg">
-                <div class="container relative">
-
-                    <div class="row">
-
-                        <div class="col-sm-6">
-
-                            <div class="mt-140 mt-lg-80 mb-140 mb-lg-80">
-                                <div class="banner-content">
-                                    <h3 class="banner-heading font-alt">Looking for exclusive digital services?</h3>
-                                    <div class="banner-decription">
-                                        Proin fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor.
-                                        Integer non dapibus diam, ac eleifend lectus.
-                                    </div>
-                                    <div class="local-scroll">
-                                        <a href="contact.html" class="btn btn-mod btn-w btn-medium btn-round">Lets talk</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="col-sm-6 banner-image wow fadeInUp" data-wow-duration="1.2s">
-                            <img src="images/promo-1.png" alt="" />
-                        </div>
-
-                    </div>
-
-                </div>
-            </section> -->
-        <!-- End Call Action Section -->
-
 
 
         <!-- Call Action Section -->
@@ -544,6 +497,20 @@
     </div>
     <!-- End Page Wrap -->
 
+    <!-- form itself -->
+    <form method="post" action="#" id="test-form" role="form" class="form white-popup-block mfp-hide">
+        <div class="mb-20 mb-md-10">
+            <!-- Name -->
+            <input type="text" name="name" id="name" class="input-md form-control" placeholder="Name" maxlength="100">
+        </div>
+        <div class="mb-20 mb-md-10">
+            <!-- Email -->
+            <input type="email" name="email" id="email" class="input-md form-control" placeholder="Email" maxlength="100">
+        </div>
+        <div class="mb-20 mb-md-10">
+            <button class="submit_btn btn btn-mod btn-medium btn-round" id="">Request trial bundle</button>
+        </div>
+    </form>
 
     <!-- JS -->
     <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
@@ -576,9 +543,6 @@
                 type: 'inline',
                 preloader: false,
                 focus: '#name',
-
-                // When elemened is focused, some mobile browsers in some cases zoom in
-                // It looks not nice, so we disable it:
                 callbacks: {
                     beforeOpen: function() {
                         if ($(window).width() < 700) {
@@ -589,6 +553,45 @@
                     }
                 }
             });
+
+
+
+            $("#test-form").submit(function(event) {
+                event.preventDefault();
+                var name = $('#name');
+                var email = $('#email');
+                var check = true;
+
+                if ($(name).val().trim() == '') {
+                    showValidate(name);
+                    check = false;
+                }
+
+
+                if ($(email).val().trim().match(/^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{1,5}|[0-9]{1,3})(\]?)$/) == null) {
+                    showValidate(email);
+                    check = false;
+                }
+
+
+
+                console.log($(this).serialize());
+
+                if (check) {
+                    var url = 'https://script.google.com/macros/s/AKfycbxk_Np2R_F1LlinTA33bAQPyg5XZn-rrs4M5xWC3lGRvts2kSX_/exec';
+                    var redirectUrl = 'form/success-page.html';
+                    var jqxhr = $.post(url, $(this).serialize(), function(data) {
+
+                        })
+                        .fail(function(data) {
+                            setTimeout(function() {
+                                location.reload();
+                            }, 3000);
+                        });
+                }
+
+            });
+
         });
     </script>
 
