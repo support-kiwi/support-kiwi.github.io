@@ -2,15 +2,18 @@
 <html>
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126543595-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126543595-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'UA-126543595-1');
-  </script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-126543595-1');
+    </script>
     <title>Support Kiwi</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
@@ -31,16 +34,31 @@
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
     <style>
-          .mfp-iframe-holder .mfp-content {
-              max-width: 550px;
-          }
-        .mfp-iframe-holder .mfp-content {
-            height: 100%;
+        .mfp-auto-cursor .mfp-content {
+            width: 500px;
+            background: #ffffff;
+            padding: 50px;
         }
     </style>
 </head>
 
 <body class="appear-animate">
+
+    <!-- form itself -->
+    <form method="post" action="#" id="test-form" role="form" class="form white-popup-block mfp-hide">
+        <div class="mb-20 mb-md-10">
+            <!-- Name -->
+            <input type="text" name="name" id="name" class="input-md form-control" placeholder="Name" maxlength="100">
+        </div>
+        <div class="mb-20 mb-md-10">
+            <!-- Email -->
+            <input type="email" name="email" id="email" class="input-md form-control" placeholder="Email" maxlength="100">
+        </div>
+        <div class="mb-20 mb-md-10">
+            <button class="submit_btn btn btn-mod btn-medium btn-round" id="submit_btn">Request trial bundle</button>
+        </div>
+    </form>
+
 
     <!-- Page Loader -->
     <div class="page-loader">
@@ -411,7 +429,7 @@
                 <div class="align-center">
                     <h3 class="banner-heading font-alt">Get a <span style="font-size: 24px; font-weight: bold;">50% discount</span> on  A 5 HOURS TRIAL BUNDLE.</h3>
                     <div class="local-scroll">
-                        <a href="forms/getdiscount.html" class="btn btn-mod btn-w btn-medium btn-round discount-form">Request trial bundle</a>
+                        <a class="popup-with-form btn btn-mod btn-w btn-medium btn-round discount-form" href="#test-form">Request trial bundle</a>
                     </div>
                 </div>
 
@@ -482,42 +500,6 @@
         <!-- End Features Section -->
 
 
-        <!-- Newsletter Section -->
-        <!--
-            <section class="small-section bg-dark">
-                <div class="container relative">
-
-                    <form class="form align-center" id="mailchimp">
-                        <div class="row">
-                            <div class="col-md-8 col-md-offset-2">
-
-                                <div class="newsletter-label font-alt">
-                                    Stay informed with our newsletter
-                                </div>
-
-                                <div class="mb-20">
-                                    <input placeholder="Enter Your Email" class="newsletter-field form-control input-md round mb-xs-10" type="email" pattern=".{5,100}" required/>
-
-                                    <button type="submit" class="btn btn-mod btn-medium btn-round mb-xs-10">
-                                        Subscribe
-                                    </button>
-                                </div>
-
-                                <div class="form-tip">
-                                    <i class="fa fa-info-circle"></i> Please trust us, we will never send you spam
-                                </div>
-
-                                <div id="subscribe-result"></div>
-
-                            </div>
-                        </div>
-                    </form>
-
-                </div>
-            </section>
-            -->
-        <!-- End Newsletter Section -->
-
 
         <!-- Footer -->
         <footer class="page-section bg-gray-lighter footer pb-60">
@@ -529,17 +511,6 @@
                 </div>
                 <!-- End Footer Logo -->
 
-                <!-- Social Links -->
-                <!--
-                    <div class="footer-social-links mb-110 mb-xs-60">
-                        <a href="#" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-                        <a href="#" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
-                        <a href="#" title="Behance" target="_blank"><i class="fa fa-behance"></i></a>
-                        <a href="#" title="LinkedIn+" target="_blank"><i class="fa fa-linkedin"></i></a>
-                        <a href="#" title="Pinterest" target="_blank"><i class="fa fa-pinterest"></i></a>
-                    </div>
-                    -->
-                <!-- End Social Links -->
 
                 <!-- Footer Text -->
                 <div class="footer-text">
@@ -600,15 +571,24 @@
     <!--[if lt IE 10]><script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
 
     <script>
-        $('.discount-form').magnificPopup({
-            type: 'iframe',
-            iframe: {
-                markup: '<div class="mfp-iframe-scaler">' +
-                    '<div class="mfp-close"></div>' +
-                    '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>' +
-                    '<div class="mfp-title">Some caption</div>' +
-                    '</div>'
-            }
+        $(document).ready(function() {
+            $('.popup-with-form').magnificPopup({
+                type: 'inline',
+                preloader: false,
+                focus: '#name',
+
+                // When elemened is focused, some mobile browsers in some cases zoom in
+                // It looks not nice, so we disable it:
+                callbacks: {
+                    beforeOpen: function() {
+                        if ($(window).width() < 700) {
+                            this.st.focus = false;
+                        } else {
+                            this.st.focus = '#name';
+                        }
+                    }
+                }
+            });
         });
     </script>
 
