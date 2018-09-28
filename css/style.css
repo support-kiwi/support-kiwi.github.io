@@ -2730,7 +2730,7 @@ a.logo:hover{
     line-height: 1.4;
 }
 
-span#name {
+span.name {
     font-size: 22px;
     color: #96CA2D;
 }
