@@ -6799,3 +6799,11 @@ body{background-color:#eee;}
     color: #FFF;
     text-decoration:none;
 }
+
+/** custom **/
+
+.mfp-auto-cursor .mfp-content {
+    max-width: 500px;
+    background: #ffffff;
+    padding: 50px;
+}
