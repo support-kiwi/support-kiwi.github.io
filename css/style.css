@@ -4055,7 +4055,7 @@ span.name {
 }
 .footer-copy{
     margin-bottom: 5px;
-    text-transform: uppercase;
+    text-transform: lowercase;
     letter-spacing: 0.5em;
 }
 .footer-made{
