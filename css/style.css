@@ -3176,10 +3176,10 @@ span.name {
 }
 .alt-features-title{
     margin-bottom: 21px;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
     text-transform: none;
-    letter-spacing: 0.4em;
+    letter-spacing: 0.3em;
 }
 .alt-features-descr {
     color: #777;
@@ -4056,7 +4056,7 @@ span.name {
 .footer-copy{
     margin-bottom: 5px;
     text-transform: lowercase;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.3em;
 }
 .footer-made{
     font-size: 11px;
